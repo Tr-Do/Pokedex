@@ -1,4 +1,4 @@
-Deploy: https://tr-do.github.io/Pokemon/
+Deploy: https://tr-do.github.io/Pokedex/
 
 ✅ Fetches Pokémon sprite images from an API
 
@@ -11,7 +11,3 @@ Validate positive input, alert user for negative integer
 API Used:
 
 https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/
-
-Example:
-
-https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png
