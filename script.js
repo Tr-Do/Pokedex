@@ -20,6 +20,7 @@ btn.addEventListener('click', function (event) {
         disp.innerText = 'Value must greater than 0';
         container.appendChild(disp);
     } else {
+        document.querySelector('.alert').classList.add('d-none');
         for (let i = 1; i <= number; i++) {
             const pokemon = document.createElement('div');
             const label = document.createElement('span');
