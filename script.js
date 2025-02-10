@@ -12,7 +12,7 @@ input.addEventListener('keypress', function (event) {
 })
 btn.addEventListener('click', function (event) {
     event.preventDefault();
-    const number = input.value;
+    const number = parseInt(input.value);
     container.innerHTML = '';
     if (parseInt(number) <= 0) {
         const disp = document.createElement('div');
